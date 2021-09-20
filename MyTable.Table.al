@@ -28,4 +28,13 @@ table 50100 MyTable
         }
     }
 
+    trigger OnInsert()
+    begin
+        Commit();
+        //The first commit raises an warning LC0002 the second should not raise a warning
+        Commit();
+
+        Commit(); // This commit should also not raise any warning!
+    end;
+
 }
