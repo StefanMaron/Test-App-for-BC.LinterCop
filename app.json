@@ -1,0 +1,26 @@
+{
+  "id": "6ede50e8-9754-4a3f-abf1-a55fb2182196",
+  "name": "LinterCopTestApp",
+  "publisher": "StefanMaron",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://LinterCopTestApp.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}
