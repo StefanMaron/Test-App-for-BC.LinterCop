@@ -1,6 +1,7 @@
 table 50100 MyTable
 {
     DataClassification = ToBeClassified;
+    LookupPageId = 18;
 
     fields
     {
