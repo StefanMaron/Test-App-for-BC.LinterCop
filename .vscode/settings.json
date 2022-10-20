@@ -3,4 +3,5 @@
         //InsertPathToLinterDllHere
     ],
     "al.enableCodeAnalysis": true,
+    "al.ruleSetPath": "./LinterCop.ruleset.json"
 }
