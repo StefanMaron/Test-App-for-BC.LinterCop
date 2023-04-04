@@ -2,6 +2,8 @@
 #pragma warning restore LC0005
 codeunit 50102 "TestRule0005"
 {
+    // Should not raise warning LC0005
+    Permissions = tabledata "Sales Shipment Buffer" = rimd;
     // Should raise warning LC0005
     TableNo = 18;
 
