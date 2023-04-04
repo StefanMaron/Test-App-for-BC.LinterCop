@@ -3,4 +3,5 @@
         //InsertPathToLinterDllHere
     ],
     "al.enableCodeAnalysis": true,
+    "al.outputAnalyzerStatistics": true
 }

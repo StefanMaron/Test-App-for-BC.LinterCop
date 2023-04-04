@@ -1,2 +1,4 @@
 **.app
 **launch.json
+.vscode/launch.json
+.vscode/rad.json
