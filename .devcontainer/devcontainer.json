@@ -1,0 +1,20 @@
+{
+	"name": "Ubuntu",
+	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+	"features": {
+		"ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
+			"packages": "dotnet-sdk-6.0"
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-dynamics-smb.al",
+				"stefanmaron.allanguagelinuxpatcher"
+			],
+			"settings": {
+				"allanguagelinuxpatcher.dotnet-path": "/usr/bin/dotnet"
+			}
+		}
+	}
+}
